@@ -2,17 +2,13 @@
 A small selection of programming assignments completed during my time at Clemson University.
 
 ## prog1.c
-This program mimics the game BINGO, in which the user must get 4 squares in a line to win the game. The word BINGO has been replaces with DABO (after Dabo Swinney, head coach of the Clemson Tiger's football team). This program simply asks for the coordinates of the bingo board and uses win detection logic to determine if the user has won. The location of the "free space" is chosen randomly each round. The letters "CU" (for Clemson University) are used to represent a mark on the bingo board.
+This program mimics the game BINGO, in which the user must get 4 squares in a line to win the game. The word BINGO has been replaces with DABO (after Dabo Swinney, head coach of the Clemson Tiger's football team). The game consists of a 4x4 board with a free space randomly chosen every round. The user is prompted to input a row and column in which to put a 'CU' in a blank space. The user can quit at any time and wins when they get 4 in a row. They can then restart if they wish to or end the program.
 
 ## prog4.c
 
-This program continuously scans for 1 of 6 commands. The
-user can either: create a vector, create a matrix, add
-two vectors, find the magnitude of a vector, multiply two
-matrices together, or quit the program. Every command is
-split up into a function (except quit) and details about
-each command can be found in the information above the
-function.
+This program continuously scans for 1 of 6 commands. The user can either: create a vector, create a matrix, add
+two vectors, find the magnitude of a vector, multiply two matrices together, or quit the program. Every command is
+split up into a function (except quit) and details about each command can be found in the information above the function.
 
 ### Assumptions:
 
@@ -51,12 +47,7 @@ quit
 
 ## prog5.c
 
-This program takes in the name of a text file containing any
-assortment of ASCII characters. The function then gives a menu
-for the user containing five options. With the exception of the
-5th option (quit), this program breaks each option down into
-a different function. The description of each function can be
-found in the function header.
+This program takes in the name of a text file containing any assortment of ASCII characters. The function then gives a menu for the user containing five options. With the exception of the 5th option (quit), this program breaks each option down into a different function. The description of each function can be found in the function header.
 
 File example.txt has been provided to use for an example.
 
@@ -69,13 +60,7 @@ File example.txt has been provided to use for an example.
 
 ## prog6.c
 
-The purpose of this program is to take in two command line inputs,
-one should be the name of an input 24-bit .bmp file and the second
-should be the desired name of an output 24-bit .bmp file. The
-program then reads the header information and pixel data of the
-input file and applies a filter to the pixels. The filtered image
-is stored into a seperate pixel data array and is then written to
-a file with the desired output name.
+The purpose of this program is to take in two command line inputs, one should be the name of an input 24-bit .bmp file and the second should be the desired name of an output 24-bit .bmp file. The program then reads the header information and pixel data of the input file and applies a filter to the pixels. The filtered image is stored into a seperate pixel data array and is then written to a file with the desired output name.
 
 File CU.bmp has been provided to use an example.
 
