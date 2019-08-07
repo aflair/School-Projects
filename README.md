@@ -14,7 +14,8 @@ split up into a function (except quit) and details about
 each command can be found in the information above the
 function.
 
-Assumptions:
+### Assumptions:
+
 - Since <math.h> is included one must compile with the -lm tag.
 - Only matrices that have been created with this program can be used,
   unless the .txt file has the required metedata in the beginning.
@@ -47,3 +48,38 @@ multiply matrices (name1) (name2)
 quit
 
 - exits the program
+
+## prog5.c
+
+This program takes in the name of a text file containing any
+assortment of ASCII characters. The function then gives a menu
+for the user containing five options. With the exception of the
+5th option (quit), this program breaks each option down into
+a different function. The description of each function can be
+found in the function header.
+
+File example.txt has been provided to use for an example.
+
+### Assumptions:
+
+- The name of a text file should be given as a parameter when the program is executed
+  (ex. "./a.out file.txt")
+- Text files contain only ASCII characters
+- User has read the function descriptions before executing the program
+
+## prog6.c
+
+The purpose of this program is to take in two command line inputs,
+one should be the name of an input 24-bit .bmp file and the second
+should be the desired name of an output 24-bit .bmp file. The
+program then reads the header information and pixel data of the
+input file and applies a filter to the pixels. The filtered image
+is stored into a seperate pixel data array and is then written to
+a file with the desired output name.
+
+File CU.bmp has been provided to use an example.
+
+### Assumptions:
+
+- The first command line argument is the name of a valid .bmp file in the directory
+- The .bmp file is a standard format 24-bit .bmp file
