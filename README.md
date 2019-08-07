@@ -2,13 +2,11 @@
 A small selection of programming assignments completed during my time at Clemson University.
 
 ## prog1.c
-This program mimics the game BINGO, in which the user must get 4 squares in a line to win the game. The word BINGO has been replaces with DABO (after Dabo Swinney, head coach of the Clemson Tiger's football team). The game consists of a 4x4 board with a free space randomly chosen every round. The user is prompted to input a row and column in which to put a 'CU' in a blank space. The user can quit at any time and wins when they get 4 in a row. They can then restart if they wish to or end the program.
+This program mimics the game BINGO, in which the user must get 4 squares in a line to win the game. The word BINGO has been replaces with DABO (after Dabo Swinney, head coach of the Clemson Tiger's football team). The game consists of a 4x4 board with a free space randomly chosen every round. The user is prompted to input a row and column in which to put a 'CU' in a blank space. The user can quit at any time and wins when they get 4 in a row. They can then restart if they wish to or end the program. No parameters necessary.
 
 ## prog4.c
 
-This program continuously scans for 1 of 6 commands. The user can either: create a vector, create a matrix, add
-two vectors, find the magnitude of a vector, multiply two matrices together, or quit the program. Every command is
-split up into a function (except quit) and details about each command can be found in the information above the function.
+This program continuously scans for 1 of 6 commands. The user can either: create a vector, create a matrix, add two vectors, find the magnitude of a vector, multiply two matrices together, or quit the program. Every command is split up into a function (except quit) and details about each command can be found in the information above the function. No parameters necessary.
 
 ### Assumptions:
 
